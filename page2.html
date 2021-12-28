@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Vue general</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='mainpage2.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="navstyle.css">
+    <link rel="stylesheet" href="footerstyle2.css">
+    <link href="images/lol.jpg" type="image/x-icon" rel="shortcut icon" >
+    <link rel="stylesheet" href="smallerscreen900.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo">
+               <a href="index.html">SMART<small><small>Home</small></small></a>
+            </li>
+        </ul>
+    </ul>
+    <ul class="right_nav">
+        <li class="fas fa-bars checkbtn" onclick="
+        if(document.querySelector('.menu').style.left=='-100%')
+            document.querySelector('.menu').style.left='0px';
+        else
+            document.querySelector('.menu').style.left='-100%';
+    "></li>
+        <li>
+    
+        </li>
+        <li>
+            <a href="signupTest.html"><svg width="20px" height="20px" viewBox="0 0 50 50">
+                <path d="M24.994,43.964 L43,43.964 C43,43.964 43,37.26 42.052,34.402 C41.226,31.916 35.26,30.252 29,27.892 L29,22.892 C29,22.892 31,21.654 31,16.892 C33,16.892 33,12.892 31,12.892 C31,12.424 33.156,9.536 32.5,6.892 C31.552,3.084 20.198,3.084 19.25,6.892 C14.512,5.94 17,12.254 17,12.892 L17,16.892 C17,21.654 21,22.892 21,22.892 L21,27.892 C15.444,30.004 8.772,31.916 7.948,34.402 C7,37.26 7,43.964 7,43.964 L24.994,43.964 Z" id="Stroke-1" stroke="red" stroke-width="4"></path>
+        </svg>
+    </a>
+    </li>
+    <li>
+        <svg width="20px" height="20px" viewBox="0 0 50 50">
+            <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+            <g id="Group" transform="translate(5.500000, 5.500000)" stroke="blue" stroke-width="4">
+            <path d="M38.0163294,13.2229561 C38.0163294,20.5253336 32.0957508,26.4459122 24.7933733,26.4459122 C17.4909958,26.4459122 11.5704172,20.5253336 11.5704172,13.2229561 C11.5704172,5.92057859 17.4909958,-1.54543045e-13 24.7933733,-1.54543045e-13 C32.0957508,-1.54543045e-13 38.0163294,5.92057859 38.0163294,13.2229561 Z" id="Stroke-1" transform="translate(24.793373, 13.222956) scale(-1, 1) translate(-24.793373, -13.222956) "></path>
+            <line x1="4.82280882e-13" y1="22.5720819" x2="15.4444127" y2="38.0164946" id="Stroke-3" stroke-linecap="round" transform="translate(7.722206, 30.294288) scale(-1, 1) translate(-7.722206, -30.294288) "></line>
+            </g>
+            </g>
+            </svg>
+    </li>
+    </ul>
+        <ul class="menu">
+            <li class="nav_menu">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav_menu current" >
+            <a href="page2.html">Vue g&eacute;neral</a>
+            </li>
+            <li class="nav_menu">
+                <a href="page3.html">Les foncionalités</a>
+                <ul class="sous_nav">
+                    <li>
+                        <a href="page3.html#eclairage">&Eacute;clairage</a>
+                    </li>
+                    <li>
+                        <a href="page3.html#clima">Climatisation</a>
+                    </li>
+                    <li>
+                        <a href="page3.html#securite">S&eacute;curit&eacute;</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav_menu ">
+                <a href="page1.html">&Eacute;tapes de r&eacute;alisation</a>
+                <ul class="sous_nav">
+                    <li>
+                        <a href="page1.html#produit">Les produits</a>
+                    </li>
+                    <li>
+                        <a href="page1.html#simulation">Simulation sur ISIS</a>
+                    </li>
+                    <li>
+                        <a href="page1.html#montage">Montage final</a>
+                    </li>
+                    <li>
+                        <a href="page1.html#rapport">Rapport en pdf</a>
+                    </li>
+                </ul>
+            </li>
+    </nav>
+    <div id="top"></div>
+    <section class="section1">
+        
+        <h1> Smart Home et le confort</h1>
+        <img src="images/homeprototype1_rsz.PNG" alt="">
+        <div class="container">
+        <p>
+           Notre projet La "Smart Home" (maison intelligente) est une maison qui permet à ses propriétaires le confort de la maison, la sécurité, l'efficacité énergétique (faibles coûts d'exploitation) et commodité à tout moment, indépendamment de savoir si quelqu'un est à la maison.
+        </p>
+
+        <p> En effet, La maison intelligente se distingue par les rôles pour lesquels elle est conçue.  On peut dire que Notre objectif de ce projet est ses fonctionnalités, dont les plus importantes sont : <br>
+1-Améliorer le confort, la sécurité, la communication et la gestion d’énergie. <br>
+2-optimiser l’utilisation de l’éclairage, du chauffage afin de réduire notre consommation en énergie.
+
+        </p>
+    </div>
+    </section>
+    <section class="section2">
+        <h1> Une maison capable d'iteragire <br> avec vous <br> et qui reste programable <br>a tout moment <br> Réve ou fiction ? </h1>
+        <br>
+        <video id="video" width="500" controls>
+         <source src="vd/VdProjet.mp4" type="video/mp4">
+        </video>
+        <!-- <div class="vd_control">
+            <ul>
+                    <button><i class="fas fa-pause fa-3x"></i></button>
+              
+                    <button id="play" onclick="playd()"><i class="fas fa-play"></i></button>
+               
+                <li>
+                    <button><i class="fas fa-volume-mute"></i></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-volume-up"></i></button>
+                </li>
+            </ul>
+        </div> -->
+    </section>
+    <footer class="app">
+        <div style="font-size: large;">contactez nous</div>
+        <div class="wrapper">
+            <div class="button">
+                <a href="https://www.facebook.com/said.hamadaa/" target="_blank">
+               <div class="icon">
+                  <i class="fab fa-facebook-f"></i>
+               </div>
+               <span>Facebook</span>
+            </a>
+            </div>
+            <div class="button">
+                <a href="https://discord.gg/Tvf3cfEa" target="_blank">
+               <div class="icon">
+                  <i class="fab fa-discord"></i>
+               </div>
+               <span>Discord</span>
+            </a>
+            </div>
+            <div class="button">
+                <a href="https://www.instagram.com/mouadmess/?hl=fr" target="_blank">
+               <div class="icon">
+                  <i class="fab fa-instagram"></i>
+               </div>
+               <span>Instagram</span>
+            </a>
+            </div>
+            <div class="button">
+                <a href="mailto:mouadmess6@gmail.com" target="_blank">
+                <div class="icon">
+                    
+                    <i class="fas fa-at"></i>
+                </div>
+                <span>Mail</span>
+            </a>
+             </div>
+             <div class="button">
+                <a href="mailto:mmouad.messaoudi@um5r.ac.ma" target="_blank">
+                <div class="icon">
+                    
+                    <i class="fas fa-at"></i>
+                </div>
+                <span>M.institusionel</span>
+            </a>
+            </div>
+             <div class="button goToTop">
+                <a href="#top">
+                <div class="icon">
+                    
+                  <i class="fas fa-chevron-circle-up"></i>
+                </div>
+                <span>Go To Top</span>
+            </a>
+             </div>
+         </div>
+    </footer>
+    <script src="translate.js"></script>
+    <body>
+    </html>

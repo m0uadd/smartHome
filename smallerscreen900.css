@@ -1,0 +1,61 @@
+@media all and (max-width: 900px) {
+    section .sous_section2 {
+        width:  100%;
+        margin: auto;
+        min-height: 1700px;
+    }
+    .sous_section2 .sous_sous_section2 {
+        width: 70%;
+        padding-top: 10px;
+        text-align: center;
+        margin : auto 15%;
+        height: 450px;
+        position: relative;
+        border: solid thick white ;
+    }
+    .menu {
+        text-align: center;
+        position: fixed;
+        height: 100vh;
+        top:22px;
+        left:-100%;
+        width: 100%;
+        background-color:black;
+        z-index: 10;
+    }
+    .menu li {
+        width: 100%;
+        display: block;
+        text-align: center;
+        float: none;
+        padding: 30px;
+    }
+    nav  ul li:hover .sous_nav {
+        display: none;
+    }
+    .checkbtn {
+        display: inline-block;
+        font-size: 25px;
+    }
+    #check:checked ~ .menu {
+        left:0px;
+    }
+    .intro p {
+        font-size: 30px;
+    }
+    #section1 h1 {
+        font-size: 30px;
+    }
+    .sous_section1 {
+        width: 80%;
+        margin: auto;
+        font-size: 2em;
+        text-align: center;
+        height: 420px;
+        position: relative;
+    }
+    .sous_section1 p {
+        font-size: 20px;
+    }
+    
+}

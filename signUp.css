@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    text-align: center;
+
+}
+label {
+    font-size: 32px;
+}
+input {
+    width: 35%;
+    height: 30px;
+    border-radius: 50px;
+    margin: 20px auto;
+}
+#top{
+    height: 40px;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+}
+#top {
+    height: 40px;
+}
+.section1 {
+    text-align: center;
+    position:relative;
+    min-height:125vh ;
+}
+.section1 h1 {
+    font-size: 3em;
+    font-family:'Lobster', cursive;
+    padding: 10px;
+}
+.section1 .container {
+    width: 60%;
+    text-align: center;
+    position: absolute;
+    right: 20%;
+    font-size: 22px;
+}
+.section2 {
+    text-align: center;
+    background-color: whitesmoke;
+    min-height: 110vh;
+    position: relative;
+}
+.section2 h1 {
+    font-size: 3em;
+}
+.vd_control{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+i {
+    width: 40px;
+    height: 40px;
+}
+.section2 ul {
+    display: inline;
+}
+.section2 ul li {
+    display: block;
+    margin: 30px;
+}

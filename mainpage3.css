@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+#top {
+    height: 40px;
+}
+.intro{
+    text-align: center;
+    height: 100vh;
+    color: white;
+    
+    font-family: sans-serif;
+    position: relative;
+}
+.intro_eclairage {
+    height: inherit;
+    background-image: url(images/FS-Nightlight-1.jpg);
+    background-size: cover;
+}
+.intro_clima{
+    height: inherit;
+    background-image: url(images/FS_Woman-in-Winter.jpg);
+    background-size: cover;
+}
+.intro_securite {
+    height: inherit;
+    background-image: url(images/FS_Sleeping-Baby-1.jpg);
+    background-size: cover;
+}
+.intro h1{
+    font-size: 72px;
+    padding: 40px;
+    
+}
+.intro p,.fonction p {
+    font-size: 23px;
+    width: 60%;
+    position: absolute;
+    right: 20%;
+}
+.bouton{
+    display:block;
+    margin-top:40vh ;
+}
+.bouton button{
+    margin: 0px 30px;
+    font-weight: bold;
+    font-size: 1,3em;
+    padding: 23px 30px;
+    background-color:#66d9ff91;
+    color:black;
+    border: none;
+}
+.bouton button:hover {
+    background-color: #66d9ff;
+}
+.fonction {
+    text-align: center;
+    height: 60vh;
+}
+.fonction h1 {
+    font-size: 3em;
+    padding: 40px;
+}
+.video {
+    background-color: whitesmoke;
+    text-align: center;
+}
+video {
+    padding: 20px;
+    width: 500px;
+}
+
+
